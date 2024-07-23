@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6584878396287936979
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1775140444881246361}
+  - component: {fileID: 1277783973050930773}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1775140444881246361
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6584878396287936979}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1277783973050930773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6584878396287936979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0be3f35cb62e41c4c9fba6e40096284d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelDataStateFull:
+  - nowState: 0
+    allLevelDataInState:
+    - {fileID: 11400000, guid: fa140dd24d95855489566da865580893, type: 2}
+    - {fileID: 11400000, guid: 2f36573ca60f64041a83bae27f47235f, type: 2}
+    - {fileID: 11400000, guid: b3b2d3aa290191c44b30dc85b7cadb25, type: 2}
+    - {fileID: 11400000, guid: cd824a35d1bb7ba4d87b72ecb71692b1, type: 2}
+    RepeatWhenMore: {fileID: 11400000, guid: fa140dd24d95855489566da865580893, type: 2}
+    newPlayer: {fileID: 78631615307842381, guid: bfe991f5fff714e4da0e7f863e1b263f, type: 3}
+  - nowState: 1
+    allLevelDataInState:
+    - {fileID: 11400000, guid: e15b4a84d47a9a848a84aa1a1e4af52d, type: 2}
+    RepeatWhenMore: {fileID: 11400000, guid: e15b4a84d47a9a848a84aa1a1e4af52d, type: 2}
+    newPlayer: {fileID: 996291024657726957, guid: dcec09c41c56af04bbb1033df9d34c0e, type: 3}
+  - nowState: 2
+    allLevelDataInState:
+    - {fileID: 11400000, guid: 86b0f3981d9ad994e9829c4cea6fc42c, type: 2}
+    RepeatWhenMore: {fileID: 11400000, guid: 86b0f3981d9ad994e9829c4cea6fc42c, type: 2}
+    newPlayer: {fileID: 996291024657726957, guid: a2557c039e7565c4bb98d348feee8869, type: 3}
+  - nowState: 3
+    allLevelDataInState:
+    - {fileID: 11400000, guid: 1cdd2046309ed7c4e8066b1e094629a6, type: 2}
+    - {fileID: 11400000, guid: 5c28969a34a28ea41b5433eb1e617cc2, type: 2}
+    RepeatWhenMore: {fileID: 11400000, guid: 1cdd2046309ed7c4e8066b1e094629a6, type: 2}
+    newPlayer: {fileID: 996291024657726957, guid: 3b9cd02cca3823d49943aefa1ac608f7, type: 3}
+  - nowState: 4
+    allLevelDataInState:
+    - {fileID: 11400000, guid: efd40ad04ccda7c448b93fa16b5468c2, type: 2}
+    - {fileID: 11400000, guid: 89c202d05a192804ab1f1be3c5ffa0b4, type: 2}
+    RepeatWhenMore: {fileID: 11400000, guid: efd40ad04ccda7c448b93fa16b5468c2, type: 2}
+    newPlayer: {fileID: 996291024657726957, guid: ee4d2f8a67a17074398dd38ac6b6654a, type: 3}
+  - nowState: 5
+    allLevelDataInState:
+    - {fileID: 11400000, guid: 7984242d33b0f7b42905e5fa4620792c, type: 2}
+    RepeatWhenMore: {fileID: 11400000, guid: 7984242d33b0f7b42905e5fa4620792c, type: 2}
+    newPlayer: {fileID: 996291024657726957, guid: 3193fc6f2b4be854c8654a6e2e987c01, type: 3}
+  - nowState: 6
+    allLevelDataInState:
+    - {fileID: 11400000, guid: 851e568da63c4f849be2e0fe60af7d26, type: 2}
+    RepeatWhenMore: {fileID: 11400000, guid: 851e568da63c4f849be2e0fe60af7d26, type: 2}
+    newPlayer: {fileID: 996291024657726957, guid: 863c7a69ee6d19c40a79174bd4665c73, type: 3}
+  nowActiveLevelGameObject: {fileID: 0}
+  startPosition: {x: 0, y: 0, z: 0}
+  nowActivePlayer: {fileID: 0}
