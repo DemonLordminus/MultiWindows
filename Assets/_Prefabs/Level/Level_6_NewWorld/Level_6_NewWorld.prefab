@@ -2176,8 +2176,12 @@ MonoBehaviour:
   newSprite: {fileID: 0}
   newColor: {r: 0, g: 0, b: 0, a: 0}
   targetObject: {fileID: 0}
+  isActive: 0
   targetComponent: {fileID: 0}
   isOnlyFor: 1
+  _unityEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &4818784550243230094
 GameObject:
   m_ObjectHideFlags: 0
@@ -2250,8 +2254,12 @@ MonoBehaviour:
   newSprite: {fileID: 0}
   newColor: {r: 0, g: 0, b: 0, a: 0}
   targetObject: {fileID: 0}
+  isActive: 0
   targetComponent: {fileID: 0}
   isOnlyFor: 0
+  _unityEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &4892386455169525322
 GameObject:
   m_ObjectHideFlags: 0
@@ -2304,8 +2312,12 @@ MonoBehaviour:
   newSprite: {fileID: 0}
   newColor: {r: 0, g: 0, b: 0, a: 0}
   targetObject: {fileID: 0}
+  isActive: 0
   targetComponent: {fileID: 0}
   isOnlyFor: 0
+  _unityEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &8095587661130152061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3716,8 +3728,12 @@ MonoBehaviour:
   newSprite: {fileID: 0}
   newColor: {r: 0, g: 0, b: 0, a: 0}
   targetObject: {fileID: 0}
+  isActive: 0
   targetComponent: {fileID: 0}
   isOnlyFor: 1
+  _unityEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &6598003279499964785
 GameObject:
   m_ObjectHideFlags: 0
@@ -3997,8 +4013,12 @@ MonoBehaviour:
   newSprite: {fileID: 0}
   newColor: {r: 0, g: 0, b: 0, a: 0}
   targetObject: {fileID: 0}
+  isActive: 0
   targetComponent: {fileID: 0}
   isOnlyFor: 0
+  _unityEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &5062136666077215105 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5707872228550230407, guid: 2eb8776043d05b9498a9520731f75797, type: 3}
@@ -4247,6 +4267,7 @@ MonoBehaviour:
   newSprite: {fileID: 0}
   newColor: {r: 0, g: 0, b: 0, a: 0}
   targetObject: {fileID: 0}
+  isActive: 0
   targetComponent: {fileID: 0}
   isOnlyFor: 1
 --- !u!4 &2295400721604091375 stripped

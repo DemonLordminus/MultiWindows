@@ -54,4 +54,19 @@ public class NetIdManager : Singleton<NetIdManager>
         
         return -1;
     }
+
+    public ulong GetOneExistClientID()
+    {
+        if (isOnlyHostExist) return 0;
+        
+        for (int i = 1; i < existId.Length; i++)
+        {
+            if (existId[i])
+            {
+                return idRefrenceClientID[i];
+            }
+        }
+
+        return 0;
+    }
 }

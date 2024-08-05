@@ -20,14 +20,15 @@ public class ChangeCameraCollider : MonoBehaviour
     public static Action colliderRefresh; 
     // public Image testShowCollider;
 
-    public float sizeRate;
-
-    private void Start()
+    public float sizeRate => HostDataManager.Instance.rate;
+    private int titleHeight;
+    private async void Start()
     {
+        await UniTask.Delay(500);//应该等待连接完成
         //     _networkObjectIns = Instantiate(networkCollider);
         //     _networkObjectIns.SpawnWithOwnership();
-
-        if (!NetworkManager.Singleton.IsHost || Application.isEditor)
+        titleHeight = WindowsAttributeController.Instance.IChange.GetTitleHeight();;
+        if (!NetworkManager.Singleton.IsHost && !Application.isEditor)
         {
             WindowResize.onWindowsResize += UpdateCollider;
             _isRegister = true;
@@ -39,6 +40,7 @@ public class ChangeCameraCollider : MonoBehaviour
             // Destroy(testShowCollider.transform.parent.gameObject);
         }
 
+        // cameraCollider.offset = new Vector2(0, titleHeight * sizeRate);
         if (NetworkManager.Singleton.IsHost)
         {
             cameraCollider.enabled = false;
@@ -50,6 +52,7 @@ public class ChangeCameraCollider : MonoBehaviour
             await UniTask.Yield();
             cameraCollider.enabled = true;
         };
+
     }
 
     private void OnDestroy()
@@ -68,7 +71,7 @@ public class ChangeCameraCollider : MonoBehaviour
         // var win = WindowsAttributeController.Instance.IChange.GetNowFrameAttribute();
         cameraCollider.size = newRect;
         onColliderUpdate?.Invoke(newRect);
-        Debug.Log($"相机碰撞体更新为{newRect}");
+        // Debug.Log($"相机碰撞体更新为{newRect}");
         
        // testShowCollider.rectTransform.sizeDelta = newRect;
        // testShowCollider.rectTransform.position = cameraCollider.transform.position;
@@ -76,11 +79,25 @@ public class ChangeCameraCollider : MonoBehaviour
 
     private async void OnApplicationFocus(bool hasFocus)
     {
-        if (hasFocus)
+        try
         {
-            cameraCollider.enabled = false;
-            await UniTask.Yield();
-            cameraCollider.enabled = true;
+            if (hasFocus)
+            {
+                if (!NetworkManager.Singleton.IsHost && !Application.isEditor)
+                {
+                    cameraCollider.enabled = false;
+                    await UniTask.Yield();
+                    cameraCollider.enabled = true;
+                }
+                else
+                {
+                    cameraCollider.enabled = false;
+                }
+            }
+        }
+        catch (MissingReferenceException e)
+        {
+            Debug.LogWarning("ChangeCameraCollider启动常规报错");
         }
     }
 }

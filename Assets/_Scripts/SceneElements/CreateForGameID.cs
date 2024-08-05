@@ -2,8 +2,10 @@ using System;
 using Sirenix.OdinInspector;
 using System.Collections;
 using System.Collections.Generic;
+using Cysharp.Threading.Tasks;
 using Unity.Netcode;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.Serialization;
 
 public class CreateForGameID : MonoBehaviour
@@ -20,23 +22,36 @@ public class CreateForGameID : MonoBehaviour
     [ShowIf("option", CreateOption.SetColor)] [SerializeField]
     private Color newColor;
 
-    [ShowIf("option", CreateOption.SetTrue)] [SerializeField]
+    [ShowIf("option", CreateOption.SetActive)] [SerializeField]
     private GameObject targetObject;
+
+    [ShowIf("option", CreateOption.SetActive)] [SerializeField]
+    private bool isActive;
     [FormerlySerializedAs("targeComponent")] [ShowIf("option", CreateOption.DestroyComponent)] [SerializeField]
     private Component targetComponent;
     [SerializeField] private bool isOnlyFor;
-    
+    [ShowIf("option", CreateOption.InvokeUnityEvent)]
+    [SerializeField] private UnityEvent _unityEvent;
 
     
-    private void OnEnable()
+    private async void OnEnable()
     {
         if(spriteRenderer==null)
         {
             spriteRenderer = GetComponent<SpriteRenderer>();
         }
-        if (clientsID.Contains(NetdataManager.instance.GameId.Value) == isOnlyFor)
+
+        await UniTask.Yield();
+        try
         {
-            HandleOnSceneLoad();
+            if (clientsID.Contains(NetdataManager.instance.GameId.Value) == isOnlyFor)
+            {
+                HandleOnSceneLoad();
+            }
+        }
+        catch (NullReferenceException e)
+        {
+            Debug.LogWarning("CreateForGameID启动常规报错");
         }
     }
     
@@ -45,10 +60,14 @@ public class CreateForGameID : MonoBehaviour
     {    
         Destroy(gameObject);
     }
-    private void SetFalseForNonID()
+    private void SetActive()
     {
-        
-         gameObject.SetActive(false);
+        if (targetObject == null)
+        {
+            targetObject = gameObject;
+        }
+
+        targetObject.SetActive(isActive);
         
     }
     private void SetSprite()
@@ -64,11 +83,7 @@ public class CreateForGameID : MonoBehaviour
         
     }
 
-    private void SetTure()
-    {
-        targetObject.SetActive(true);
 
-    }
     private void DestroyComponent()
     {
         Destroy(targetComponent);
@@ -81,8 +96,8 @@ public class CreateForGameID : MonoBehaviour
             case CreateOption.DestroyThis:
                 DestroyForID();
                 break;
-            case CreateOption.JustSetFalse:
-                SetFalseForNonID();
+            case CreateOption.SetActive:
+                SetActive();
                 break;
             case CreateOption.SetColor:
                 SetColor();
@@ -90,15 +105,19 @@ public class CreateForGameID : MonoBehaviour
             case CreateOption.SetSprite:
                 SetSprite();
                 break;
-            case CreateOption.SetTrue:
-                SetTure();
-                break;
-            case CreateOption.empty:
+   
+            case CreateOption.Empty:
+                Debug.LogError("未设置类型");
                 break;
             case CreateOption.DestroyComponent:
                 DestroyComponent();
                 break;
-
+            case CreateOption.InvokeUnityEvent:
+                _unityEvent?.Invoke();
+                break;
+            default:
+                Debug.LogError("未设置类型");
+                break;
         }
     }
 

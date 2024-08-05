@@ -14,6 +14,13 @@
       "dependencies": {},
       "hash": "cdf88c6a6ac8c9b7e6e5d3c0a360a4af29641c24"
     },
+    "com.github-glitchenzo.nugetforunity": {
+      "version": "https://github.com/GlitchEnzo/NuGetForUnity.git?path=/src/NuGetForUnity",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "90fa6db024148d466fe738f58fd4263c7267346b"
+    },
     "com.kirurobo.uniwinc": {
       "version": "https://github.com/kirurobo/UniWindowController.git#upm",
       "depth": 0,
@@ -22,14 +29,14 @@
       "hash": "185dd1b2e73f7ba0708b9532668133bb97908ed1"
     },
     "com.singularitygroup.hotreload": {
-      "version": "git+https://gitlab.hotreload.net/root/hot-reload-releases.git#1.12.11",
+      "version": "git+https://gitlab.hotreload.net/root/hot-reload-releases.git#1.12.12",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.unity.ugui": "1.0.0",
         "com.unity.modules.unitywebrequest": "1.0.0"
       },
-      "hash": "e0145be746f12c3adedfb19347503c6d60dff075"
+      "hash": "56b69dfe27d695bee44ce09f419003c3c4ca9731"
     },
     "com.unity.2d.animation": {
       "version": "10.1.2",
@@ -261,14 +268,13 @@
       "url": "https://packages.unity.cn"
     },
     "com.unity.netcode.gameobjects": {
-      "version": "1.9.1",
+      "version": "file:local_packages/com.unity.netcode.gameobjects",
       "depth": 0,
-      "source": "registry",
+      "source": "local",
       "dependencies": {
         "com.unity.nuget.mono-cecil": "1.10.1",
         "com.unity.transport": "1.4.0"
-      },
-      "url": "https://packages.unity.cn"
+      }
     },
     "com.unity.nuget.mono-cecil": {
       "version": "1.11.4",

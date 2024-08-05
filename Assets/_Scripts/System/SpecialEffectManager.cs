@@ -1,9 +1,30 @@
+ using Sirenix.OdinInspector;
  using Unity.Netcode;
 using UnityEngine;
 
 public class SpecialEffectManager : Singleton<SpecialEffectManager>
 {
 
+    private InvisableStartScene _invisableStartScene = InvisableStartScene.Instance;
+    
+    public void HideCurtain()
+    {
+        if (NetworkManager.Singleton.IsHost)
+        {
+            WindowsAttributeController.Instance.IChange.SetWindowsHide(true);
+        }
+        
+    }
+
+    public void ShowCurtain()
+    {
+        if (NetworkManager.Singleton.IsHost)
+        {
+            // WindowsAttributeController.Instance.IChange.SetWindowsHide(false);
+            _invisableStartScene.VisibleOnHost();
+        }
+    }
+    
     //
     // public void MakeHostPlayerSpriteVisible(bool isVisible)
     // {

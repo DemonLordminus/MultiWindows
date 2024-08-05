@@ -114,9 +114,17 @@ public class WindowsAttributeController : Singleton<WindowsAttributeController>
 
 }
 
- 
 
 
+public enum WindowPlacement
+{
+    Empty,
+    Hide,
+    Normal,
+    ShowMinimized,
+    ShowMaximized,
+    ShowNoActivate
+}
 
 // 采用接口，用于editor模式
 public interface IWindowsAttributeChange
@@ -136,6 +144,10 @@ public interface IWindowsAttributeChange
     public FrameAttribute GetNowFrameAttribute();
     public int GetTitleHeight();
     public void SetWindowResizeMode(bool isCanResize);
+    public WindowPlacement GetPlacement();
+    public void SetWindowsHide(bool isHide);
+    public Vector2Int GetWorldPositionToScreen(Vector2 worldPosition);
+    public void HighLightWindow();
 }
 public struct FrameAttribute
 {
@@ -199,7 +211,30 @@ internal class WindowAttributeControllerPlayMode : IWindowsAttributeChange
     private static int SM_CYCAPTION = 4; //标题栏高度
     private static int SM_CXFULLSCREEN = 16; //最大化窗口宽度（减去任务栏）
     private static int SM_CYFULLSCREEN = 17; //最大化窗口高度（减去任务栏）
+    
+    [DllImport("user32.dll")]
+    private static extern bool GetWindowPlacement(IntPtr hWnd, ref WINDOWPLACEMENT lpwndpl);
 
+    [StructLayout(LayoutKind.Sequential)]
+    public struct WINDOWPLACEMENT
+    {
+        public int length;
+        public int flags;
+        public int showCmd;
+        public System.Drawing.Point ptMinPosition;
+        public System.Drawing.Point ptMaxPosition;
+        public System.Drawing.Rectangle rcNormalPosition;
+    }
+    [DllImport("user32.dll")]
+    private static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);
+
+    private const int SW_HIDE = 0; // 隐藏窗口
+    private const int SW_SHOW = 5;  // 显示窗口
+    
+    // 导入用户32.dll
+    [DllImport("user32.dll")]
+    [return: MarshalAs(UnmanagedType.Bool)]
+    private static extern bool SetForegroundWindow(IntPtr hWnd);
 
     #endregion
 
@@ -253,6 +288,69 @@ internal class WindowAttributeControllerPlayMode : IWindowsAttributeChange
         SetWindowLong(hWnd, GWL_STYLE, style);
     }
 
+    public WindowPlacement GetPlacement()
+    {
+        WINDOWPLACEMENT placement = new WINDOWPLACEMENT();
+        placement.length = Marshal.SizeOf(placement);
+        GetWindowPlacement(hWnd, ref placement);
+        switch (placement.showCmd)
+        {
+            case 0: return WindowPlacement.Hide;
+            case 1: return WindowPlacement.Normal;
+            case 2: return WindowPlacement.ShowMaximized;
+            case 3: return WindowPlacement.ShowMinimized;
+            case 4: return WindowPlacement.ShowNoActivate;
+            
+        }
+        // return placement.showCmd == 2; // 2表示窗口最小化
+        return WindowPlacement.Empty;
+    }
+
+    public void SetWindowsHide(bool isHide)
+    {
+        if (isHide)
+        {
+            
+            ShowWindow(hWnd, SW_HIDE); // 将窗口设置为隐藏状态
+        }
+        else
+        {
+            ShowWindow(hWnd, SW_SHOW); // 将窗口取消隐藏状态
+        }
+    }
+
+    public Vector2Int GetWorldPositionToScreen(Vector2 worldPosition)
+    {
+        // Vector2 toCameraPos = CameraGroup.Instance.nowCamera.WorldToScreenPoint(worldPosition);
+        worldPosition.y = -worldPosition.y;
+        worldPosition -= (Vector2)HostDataManager.Instance.startPoint.position - new Vector2(0, 0.5f);//TODO:offset手动填入了 放到hostdata更好
+        FrameAttribute win = GetNowFrameAttribute();
+        int offsetX = win.width/2;
+        int offsetY = win.height/2;
+        int x = GetSystemMetrics(SM_CXSCREEN);
+        int y = GetSystemMetrics(SM_CYSCREEN);
+        var screenPos = (worldPosition / (0.03435f * HostDataManager.Instance.OriginOrthoSize.Value / 10f));
+        screenPos += new Vector2Int(x / 2 - offsetX, y / 2 - offsetY);
+        Vector2Int result = new Vector2Int((int)screenPos.x, (int)screenPos.y);
+        return result;
+    }
+
+    public void HighLightWindow()
+    {
+        SetForegroundWindow(hWnd);
+    }
+
+    public Vector2 GetWindowPosition()
+    {
+        // GetWindowRect(hWnd, out rect);
+        var win = GetNowFrameAttribute();
+        var screenSize = new Vector2(primaryRes.width, -primaryRes.height);
+        var windowPosition = new Vector2(win.posX + win.width / 2, -win.posY - win.height/2) - screenSize/2;
+
+        return windowPosition;
+    }
+
+
     // 获取当前窗口句柄
     private IntPtr hWnd = GetActiveWindow();
     //
@@ -304,11 +402,11 @@ internal class WindowAttributeControllerPlayMode : IWindowsAttributeChange
         {
             if (isMost)
             {
-                order = HWND_BOTTOM;
+                order = HWND_BOTTOM; //最底层
             }
             else
             {
-                order = HWND_NOTOPMOST;
+                order = HWND_NOTOPMOST; //去掉最顶层
             }
         }
 
@@ -418,6 +516,26 @@ internal class WindowAttributeControllerEditorMode : IWindowsAttributeChange
     }
 
     public void SetWindowResizeMode(bool isCanResize)
+    {
+        
+    }
+
+    public WindowPlacement GetPlacement()
+    {
+        return WindowPlacement.Normal;
+    }
+
+    public void SetWindowsHide(bool isHide)
+    {
+        
+    }
+
+    public Vector2Int GetWorldPositionToScreen(Vector2 worldPosition)
+    {
+        return Vector2Int.zero;
+    }
+
+    public void HighLightWindow()
     {
         
     }

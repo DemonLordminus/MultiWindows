@@ -85,6 +85,15 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 851e568da63c4f849be2e0fe60af7d26, type: 2}
     RepeatWhenMore: {fileID: 11400000, guid: 851e568da63c4f849be2e0fe60af7d26, type: 2}
     newPlayer: {fileID: 996291024657726957, guid: 863c7a69ee6d19c40a79174bd4665c73, type: 3}
+  levelGroupDataSosFull:
+  - {fileID: 11400000, guid: aa0cb54a9c494464fa52a72204dde23b, type: 2}
+  - {fileID: 11400000, guid: 80cb745e72907fb47bd68a0095946b38, type: 2}
+  - {fileID: 11400000, guid: 79eaadd7723d3c14cb3bcee6116cdfb3, type: 2}
+  - {fileID: 11400000, guid: 0ce9225f275cdd6428eb0e5aa4d51a1e, type: 2}
+  - {fileID: 11400000, guid: f3aaa2fd820b7bc4399fd1b876ac25dc, type: 2}
+  - {fileID: 11400000, guid: a510168a9725e9e4ca9d6068b16e875b, type: 2}
+  - {fileID: 11400000, guid: f79cbf9ede0477a4fb15374a45f60c7c, type: 2}
+  - {fileID: 11400000, guid: 89b43a4cc6e5d5643880ce1f27b36ade, type: 2}
   nowActiveLevelGameObject: {fileID: 0}
   startPosition: {x: 0, y: 0, z: 0}
   nowActivePlayer: {fileID: 0}

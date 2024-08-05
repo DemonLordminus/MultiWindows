@@ -23,7 +23,7 @@ public class CameraLockInCenter : MonoBehaviour
         }
         else
         {
-            WindowsAttributeController.Instance.IChange.SetWinodwsOrder(false,false);
+            WindowsAttributeController.Instance.IChange.SetWinodwsOrder(false,true);
         }
     }
 }

@@ -4,12 +4,8 @@ using UnityEngine;
 
 public class FollowCamera : MonoBehaviour
 {
-    [SerializeField] private Transform followRoot;
-
-    private void Start()
-    {
-        followRoot = SystemManager.Instance.cameraRoot;
-    }
+   private Transform followRoot => SystemManager.Instance.cameraRoot;
+   
     private void Update()
     {
         transform.position = followRoot.position;

@@ -20,8 +20,11 @@ public class CreateForClient : MonoBehaviour
     [ShowIf("option", CreateOption.SetColor)] [SerializeField]
     private Color newColor;
 
-    [ShowIf("option", CreateOption.SetTrue)] [SerializeField]
+    [ShowIf("option", CreateOption.SetActive)] [SerializeField]
     private GameObject targetObject;
+
+    [ShowIf("option", CreateOption.SetActive)] [SerializeField]
+    private bool isActive;
     [FormerlySerializedAs("targeComponent")] [ShowIf("option", CreateOption.DestroyComponent)] [SerializeField]
     private Component targetComponent;
     [SerializeField] private bool isOnlyFor;
@@ -30,7 +33,14 @@ public class CreateForClient : MonoBehaviour
     
     private void OnEnable()
     {
-        NetworkManager.Singleton.SceneManager.OnSceneEvent += OnSceneEvent;
+        try
+        {
+            NetworkManager.Singleton.SceneManager.OnSceneEvent += OnSceneEvent;
+        }
+        catch (NullReferenceException e)
+        {
+            Debug.LogWarning("CreateForClient启动常规报错");
+        }
     }
     private void OnDisable()
     {
@@ -79,10 +89,15 @@ public class CreateForClient : MonoBehaviour
     {    
         Destroy(gameObject);
     }
-    private void SetFalseForNonID()
+
+    private void SetActive()
     {
-        
-         gameObject.SetActive(false);
+        if (targetObject == null)
+        {
+            targetObject = gameObject;
+        }
+
+        targetObject.SetActive(isActive);
         
     }
     private void SetSprite()
@@ -97,12 +112,7 @@ public class CreateForClient : MonoBehaviour
         spriteRenderer.color = newColor;
         
     }
-
-    private void SetTure()
-    {
-        targetObject.SetActive(true);
-
-    }
+    
     private void DestroyComponent()
     {
         Destroy(targetComponent);
@@ -115,8 +125,8 @@ public class CreateForClient : MonoBehaviour
             case CreateOption.DestroyThis:
                 DestroyForID();
                 break;
-            case CreateOption.JustSetFalse:
-                SetFalseForNonID();
+            case CreateOption.SetActive:
+                SetActive();
                 break;
             case CreateOption.SetColor:
                 SetColor();
@@ -124,10 +134,8 @@ public class CreateForClient : MonoBehaviour
             case CreateOption.SetSprite:
                 SetSprite();
                 break;
-            case CreateOption.SetTrue:
-                SetTure();
-                break;
-            case CreateOption.empty:
+            case CreateOption.Empty:
+                Debug.LogError("未设置类型");
                 break;
             case CreateOption.DestroyComponent:
                 DestroyComponent();
@@ -139,11 +147,12 @@ public class CreateForClient : MonoBehaviour
 }
 public enum CreateOption
 { 
-    empty,
+    Empty,
     DestroyThis,
-    JustSetFalse,
+    SetActive,
     SetColor,
     SetSprite,
-    SetTrue,
+    //SetTrue,
     DestroyComponent,
+    InvokeUnityEvent,
 }

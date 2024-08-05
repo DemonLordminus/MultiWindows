@@ -31,6 +31,9 @@ public class CameraGroup : Singleton<CameraGroup>
             await UniTask.Delay(500);
             AutoSetCameraOrthographic();
         }
+
+        HostDataManager.Instance.OriginOrthoSize.OnValueChanged +=
+            (previous, current) => { AutoSetCameraOrthographic(); };
     }
 
     public void AutoSetCameraOrthographic()
@@ -41,9 +44,9 @@ public class CameraGroup : Singleton<CameraGroup>
         FrameAttribute win = IChange.GetNowFrameAttribute();
         float nowHeight = win.height - IChange.GetTitleHeight(); //测试要不要-2
         //float nowHeight = win.height;
-        virtualCamera.m_Lens.OrthographicSize = 10f * (nowHeight / 600);
+        virtualCamera.m_Lens.OrthographicSize = HostDataManager.Instance.OriginOrthoSize.Value * (nowHeight / 600);
         // // nowCamera.orthographicSize = initialOrthographicSize * (initialAspect / currentAspect);
-        //
+        
         // virtualCamera.m_Lens.OrthographicSize = initialOrthographicSize * (currentAspect / initialAspect);
         // // Debug.Log($"{win.width}，{win.height - 30}，{virtualCamera.m_Lens.OrthographicSize}，{nowCamera.orthographicSize}");
     }

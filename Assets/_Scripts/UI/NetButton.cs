@@ -40,11 +40,11 @@ public class NetButton : MonoBehaviour
         if (NetworkManager.Singleton.IsConnectedClient)
         {
             NetworkManager.Singleton.OnClientStarted += SceneChange;
-            
+
             Debug.Log("HasServer");
-             OnClientDone?.Invoke();
+            OnClientDone?.Invoke();
             OnNetDone?.Invoke();
-            Destroy(gameObject);
+            // Destroy(gameObject);
         }
         else
         {
@@ -79,10 +79,14 @@ public class NetButton : MonoBehaviour
     {
         //if (NetworkManager.Singleton.IsConnectedClient || NetworkManager.Singleton.IsServer)
         //{
+        
             NetworkManager.Singleton.SceneManager.LoadScene(firstScene, LoadSceneMode.Single);
             Destroy(gameObject);
-        //}
+        
+            //}
     }
+
+
 
     private async UniTask TestHost()
     {

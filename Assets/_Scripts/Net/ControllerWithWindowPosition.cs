@@ -18,9 +18,11 @@ public class ControllerWithWindowPosition : MonoBehaviour
         // CameraUpdate();
         //InvokeRepeating("CameraUpdate",0.5f,0.05f);
         // NewCameraUpdate();
+        // HostDataManager.Instance.rateBetweenWindowsToGame.OnValueChanged += OnHostRateChange;
+        HostDataManager.Instance.OriginOrthoSize.OnValueChanged += OnHostCameraSizeUpdate;
     }
     
-    public async void CameraUpdate(bool isOnlyOnce = false)
+    public void CameraUpdate(bool isOnlyOnce = false)
     {
     //     //Debug.Log("test");
     //
@@ -40,7 +42,7 @@ public class ControllerWithWindowPosition : MonoBehaviour
     {
         if (!NetworkManager.Singleton.IsHost)
         {
-            Vector2 posWithRate = positionGetter.GetWindowPosition() * new Vector2(rateBetweenWindowsToGameX,rateBetweenWindowsToGameY);
+            Vector2 posWithRate = positionGetter.GetWindowPosition() * new Vector2(rateBetweenWindowsToGame,rateBetweenWindowsToGame);
             CameraRoot.transform.position = posWithRate + (Vector2)HostDataManager.Instance.startPoint.position + offset;
         }
         else
@@ -57,15 +59,24 @@ public class ControllerWithWindowPosition : MonoBehaviour
     //     NewCameraUpdate();
     // }
 
-    public void ChangeRate(float rate)
-    {
-        rateBetweenWindowsToGame = rate;
-    }
+    // public void ChangeRate(float rate)
+    // {
+    //     rateBetweenWindowsToGame = rate;
+    // }
     public void ChangeRate(float rateX,float rateY)
     {
         rateBetweenWindowsToGameX = rateX;
         rateBetweenWindowsToGameY = rateY;
     }
+    public void OnHostRateChange(float previous,float current)
+    {
+        rateBetweenWindowsToGame = current;
+    }
+    public void OnHostCameraSizeUpdate(float previous,float current)
+    {
+        rateBetweenWindowsToGame = 0.03435f * current / 10f;
+    }
+
     private void OnApplicationFocus(bool focus)
     {
         isFocus = focus;

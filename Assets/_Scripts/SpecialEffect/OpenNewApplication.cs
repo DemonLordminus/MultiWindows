@@ -1,6 +1,7 @@
 using System;
 using System.Diagnostics;
 using Cysharp.Threading.Tasks;
+using Unity.Netcode;
 using UnityEngine;
 
 public class OpenNewApplication : MonoBehaviour
@@ -27,7 +28,7 @@ public class OpenNewApplication : MonoBehaviour
         NetdataManager.OnHostManagerInitComplete -= CreateNewApplication;
     }
 
-    public async void CreateNewApplication()
+    public void CreateNewApplication()
     {
         if (!Application.isEditor)
         {
@@ -40,6 +41,17 @@ public class OpenNewApplication : MonoBehaviour
         if (isCanNotClose)
         {
             CreateNewApplication();
+        }
+    }
+
+    public void Update()
+    {
+        if (GlobalInput.GetKeyDown(GlobalKeyCode.F3))
+        {
+            if (NetworkManager.Singleton.IsHost)
+            {
+                CreateNewApplication();
+            }
         }
     }
 }

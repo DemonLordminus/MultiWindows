@@ -16,6 +16,7 @@ public class NetdataManager : NetworkBehaviour
     public Vector2 moveControl;
     public static NetdataManager host;
     public bool isThisHost;
+    
     public NetworkVariable<int> GameId =  new NetworkVariable<int>(-1,NetworkVariableReadPermission.Everyone,NetworkVariableWritePermission.Server);
     public NetworkVariable<int> NowPlayerOwnerGameID = new NetworkVariable<int>(default,NetworkVariableReadPermission.Everyone,NetworkVariableWritePermission.Server);
     public NetworkVariable<LevelState> levelState = new NetworkVariable<LevelState>(global::LevelState.start_SingleWindow,
@@ -35,6 +36,7 @@ public class NetdataManager : NetworkBehaviour
     {
     
         base.OnDestroy();
+#if !UNITY_EDITOR
         if (IsHost)
         {
             if (NetworkManager.Singleton.ConnectedClientsList.Count == 1 && !isNoNeedToQuitWhenOtherGameQuit)
@@ -49,6 +51,7 @@ public class NetdataManager : NetworkBehaviour
                 }
             }
         }
+#endif
     }
 
     
@@ -135,10 +138,6 @@ public class NetdataManager : NetworkBehaviour
             GameId.Value = NetIdManager.Instance.GetNextId(OwnerClientId);
         }
 
-        if (IsHost && IsOwner)
-        {
-            OnHostManagerInitComplete?.Invoke();
-        }
         
         Debug.Log("生成Manager");
         await UniTask.Delay(100);
@@ -161,7 +160,14 @@ public class NetdataManager : NetworkBehaviour
         {
             OneSceneLevelManager.Instance.LevelSwitch(NetdataManager.host.levelState.Value);
             await UniTask.Delay(10);
-            PlayerSetStartPos.SetPlayerToStartPos?.Invoke();
+            PlayerSetStartPos.SetPlayerToStartPos?.Invoke(); // BUG:目前新打开窗口时直接让角色切换到新窗口会触发重生 暂时先不处理
+            
+        }
+
+        await UniTask.Delay(300);
+        if (IsHost && IsOwner)
+        {
+            OnHostManagerInitComplete?.Invoke();
         }
 }
     
@@ -183,6 +189,7 @@ public class NetdataManager : NetworkBehaviour
             {
                 if (!Application.isEditor)
                 {
+                    NetworkManager.Singleton.Shutdown();
                     Application.Quit();
                 }
                 else

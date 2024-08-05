@@ -380,7 +380,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraCollider: {fileID: 6131785078460399240}
-  sizeRate: 0.0341
 --- !u!1 &1036449513273834972
 GameObject:
   m_ObjectHideFlags: 0
@@ -1356,14 +1355,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startPoint: {fileID: 8277604852749234091}
-  sceneNames:
-  - Init
-  - Scene1
-  - Scene2
-  - Scene3
-  - Scene4
-  - Scene5
-  - Scene6
+  player: {fileID: 0}
+  _nowGameState:
+    m_InternalValue: 0
+  OriginOrthoSize:
+    m_InternalValue: 10
+  rateBetweenWindowsToGame:
+    m_InternalValue: 0.0341
 --- !u!114 &5160976629962335401
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5100,7 +5098,7 @@ Camera:
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 0
-  m_HDR: 1
+  m_HDR: 0
   m_AllowMSAA: 0
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
@@ -5375,7 +5373,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 624658425
+  GlobalObjectIdHash: 3262418294
   InScenePlacedSourceGlobalObjectIdHash: 0
   AlwaysReplicateAsRoot: 0
   SynchronizeTransform: 1

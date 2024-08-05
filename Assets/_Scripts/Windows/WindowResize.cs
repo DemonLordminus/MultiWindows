@@ -31,7 +31,7 @@ public class WindowResize : MonoBehaviour
             _cameraGroup.AutoSetCameraOrthographic();
             
             //打印日志
-            Debug.Log($"屏幕尺寸更新为{Screen.width}*{Screen.height}");
+            // Debug.Log($"屏幕尺寸更新为{Screen.width}*{Screen.height}");
             
             onWindowsResize?.Invoke(new Vector2(Screen.width,Screen.height));
         }

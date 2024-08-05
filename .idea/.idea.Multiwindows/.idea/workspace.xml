@@ -4,20 +4,880 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b6bb05c-d79b-48e6-86da-d7729cce6ea4" name="更改" comment="" />
+    <list default="true" id="5b6bb05c-d79b-48e6-86da-d7729cce6ea4" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/LevelGroup.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/LevelGroup/Level 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/LevelGroup/Level 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/LevelGroup/Level 2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/LevelGroup/Level 2.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/LevelGroup/Level 3.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/LevelGroup/Level 3.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/LevelGroup/Level 4.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/LevelGroup/Level 4.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/LevelGroup/Level 5.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/LevelGroup/Level 5.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/LevelGroup/Level 6.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/LevelGroup/Level 6.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/LevelGroup/Level 7.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/LevelGroup/Level 7.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/Level_7_OutSIedeTheBox.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/Level_7_OutSIedeTheBox/Level7_OutSideTheBox-0.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/Level_7_OutSIedeTheBox/Level7_OutSideTheBox-0.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/Level_7_OutSIedeTheBox/Level7_OutSideTheBox.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/Level_7_OutSIedeTheBox/Level7_OutSideTheBox.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/Level_7_OutSIedeTheBox/Level_7_OutsideTheBox-0.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/Level_7_OutSIedeTheBox/Level_7_OutsideTheBox-0.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/Level_7_OutSIedeTheBox/Level_7_OutsideTheBox.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/Level_7_OutSIedeTheBox/Level_7_OutsideTheBox.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/Level_7_OutSIedeTheBox/Level_7_Player.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/Level_7_OutSIedeTheBox/Level_7_Player.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/_NoUse.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/_NoUse/Level_7_Final.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/_NoUse/Level_7_Final/Level_7_FInal.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/_NoUse/Level_7_Final/Level_7_FInal.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/_NoUse/Level_7_Final/Level_7_NewWorld.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/_NoUse/Level_7_Final/Level_7_NewWorld.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/_NoUse/Level_7_Final/Level_7_Player.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/_NoUse/Level_7_Final/Level_7_Player.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/LevelData/LevelGroupDataSO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/LevelData/LevelGroupDataSO.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Net/NetBoxCollider2D.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Net/NetBoxCollider2D.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Net/NetCameraCollider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Net/NetCameraCollider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/SceneElements/EffectForInvoke.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/SceneElements/EffectForInvoke/ChangePlayerOwnerShip.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/SceneElements/EffectForInvoke/ChangePlayerOwnerShip.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/SceneElements/Player/SpecialEffect.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/SceneElements/SceneEffect/PlayerColliderTrigger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/SceneElements/SceneEffect/PlayerColliderTrigger.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/SpecialEffect/ChangeCurtainState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/SpecialEffect/ChangeCurtainState.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Test.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Test/HostDataManagerChangeTool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Test/HostDataManagerChangeTool.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/.signature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/CHANGELOG.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Components.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Components/AnticipatedNetworkTransform.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Components/AnticipatedNetworkTransform.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Components/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Components/AssemblyInfo.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Components/HalfVector3.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Components/HalfVector3.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Components/HalfVector4.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Components/HalfVector4.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Components/Interpolator.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Components/Interpolator/BufferedLinearInterpolator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Components/Interpolator/BufferedLinearInterpolator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Components/Messages.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Components/Messages/NetworkTransformMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Components/Messages/NetworkTransformMessage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Components/NetworkAnimator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Components/NetworkAnimator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Components/NetworkDeltaPosition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Components/NetworkDeltaPosition.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Components/NetworkRigidbody.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Components/NetworkRigidbody.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Components/NetworkRigidbody2D.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Components/NetworkRigidbody2D.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Components/NetworkTransform.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Components/NetworkTransform.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Components/QuaternionCompressor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Components/QuaternionCompressor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Components/com.unity.netcode.components.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Components/com.unity.netcode.components.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Documentation~/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/AnticipatedNetworkTransformEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/AnticipatedNetworkTransformEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/AssemblyInfo.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/CodeGen.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/CodeGen/CodeGenHelpers.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/CodeGen/CodeGenHelpers.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/CodeGen/INetworkMessageILPP.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/CodeGen/INetworkMessageILPP.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/CodeGen/INetworkSerializableILPP.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/CodeGen/INetworkSerializableILPP.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/CodeGen/NetworkBehaviourILPP.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/CodeGen/NetworkBehaviourILPP.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/CodeGen/PostProcessorAssemblyResolver.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/CodeGen/PostProcessorAssemblyResolver.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/CodeGen/PostProcessorReflectionImporter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/CodeGen/PostProcessorReflectionImporter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/CodeGen/PostProcessorReflectionImporterProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/CodeGen/PostProcessorReflectionImporterProvider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/CodeGen/RuntimeAccessModifiersILPP.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/CodeGen/RuntimeAccessModifiersILPP.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/CodeGen/com.unity.netcode.editor.codegen.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/CodeGen/com.unity.netcode.editor.codegen.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/Configuration.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/Configuration/NetcodeForGameObjectsProjectSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/Configuration/NetcodeForGameObjectsProjectSettings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/Configuration/NetcodeForGameObjectsSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/Configuration/NetcodeForGameObjectsSettings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/Configuration/NetcodeSettingsProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/Configuration/NetcodeSettingsProvider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/Configuration/NetworkPrefabProcessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/Configuration/NetworkPrefabProcessor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/Configuration/NetworkPrefabsEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/Configuration/NetworkPrefabsEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/HiddenScriptEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/HiddenScriptEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/NetworkBehaviourEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/NetworkBehaviourEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/NetworkManagerEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/NetworkManagerEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/NetworkManagerHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/NetworkManagerHelper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/NetworkManagerRelayIntegration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/NetworkManagerRelayIntegration.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/NetworkObjectEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/NetworkObjectEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/NetworkTransformEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/NetworkTransformEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/PackageChecker.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/PackageChecker/UTPAdapterChecker.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/PackageChecker/UTPAdapterChecker.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/PackageChecker/com.unity.netcode.editor.packagechecker.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/PackageChecker/com.unity.netcode.editor.packagechecker.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/com.unity.netcode.editor.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/com.unity.netcode.editor.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/LICENSE.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/README.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/AssemblyInfo.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Configuration.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Configuration/HashSize.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Configuration/HashSize.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Configuration/NetworkConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Configuration/NetworkConfig.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Configuration/NetworkConstants.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Configuration/NetworkConstants.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Configuration/NetworkPrefab.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Configuration/NetworkPrefab.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Configuration/NetworkPrefabs.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Configuration/NetworkPrefabs.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Configuration/NetworkPrefabsList.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Configuration/NetworkPrefabsList.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Connection.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Connection/NetworkClient.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Connection/NetworkClient.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Connection/NetworkConnectionManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Connection/NetworkConnectionManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Connection/PendingClient.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Connection/PendingClient.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Core.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Core/ComponentFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Core/ComponentFactory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Core/NetworkBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Core/NetworkBehaviour.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Core/NetworkBehaviourUpdater.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Core/NetworkBehaviourUpdater.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Core/NetworkManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Core/NetworkManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Core/NetworkObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Core/NetworkObject.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Core/NetworkObjectRefreshTool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Core/NetworkObjectRefreshTool.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Core/NetworkUpdateLoop.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Core/NetworkUpdateLoop.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Exceptions.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Exceptions/InvalidParentException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Exceptions/InvalidParentException.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Exceptions/NetworkConfigurationException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Exceptions/NetworkConfigurationException.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Exceptions/NotListeningException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Exceptions/NotListeningException.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Exceptions/NotServerException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Exceptions/NotServerException.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Exceptions/SpawnStateException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Exceptions/SpawnStateException.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Exceptions/VisibilityChangeException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Exceptions/VisibilityChangeException.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Hashing.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Hashing/XXHash.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Hashing/XXHash.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Logging.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Logging/LogLevel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Logging/LogLevel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Logging/NetworkLog.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Logging/NetworkLog.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/CustomMessageManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/CustomMessageManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/DefaultMessageSender.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/DefaultMessageSender.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/DeferredMessageManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/DeferredMessageManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/DisconnectReasonMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/DisconnectReasonMessage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/GenerateSerializationForGenericParameterAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/GenerateSerializationForGenericParameterAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/GenerateSerializationForTypeAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/GenerateSerializationForTypeAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/IDeferredNetworkMessageManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/IDeferredNetworkMessageManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/ILPPMessageProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/ILPPMessageProvider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/INetworkHooks.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/INetworkHooks.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/INetworkMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/INetworkMessage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/INetworkMessageProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/INetworkMessageProvider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/INetworkMessageSender.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/INetworkMessageSender.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/Messages.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/AnticipationCounterSync.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/AnticipationCounterSync.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/ChangeOwnershipMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/ChangeOwnershipMessage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/ClientConnectedMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/ClientConnectedMessage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/ClientDisconnectedMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/ClientDisconnectedMessage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/ConnectionApprovedMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/ConnectionApprovedMessage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/ConnectionRequestMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/ConnectionRequestMessage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/CreateObjectMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/CreateObjectMessage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/DestroyObjectMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/DestroyObjectMessage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/MessageMetadata.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/MessageMetadata.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/NamedMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/NamedMessage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/NetworkVariableDeltaMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/NetworkVariableDeltaMessage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/ParentSyncMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/ParentSyncMessage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/ProxyMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/ProxyMessage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/RpcMessages.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/RpcMessages.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/SceneEventMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/SceneEventMessage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/ServerLogMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/ServerLogMessage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/TimeSyncMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/TimeSyncMessage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/UnnamedMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/Messages/UnnamedMessage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkBatchHeader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkBatchHeader.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkContext.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkManagerHooks.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkManagerHooks.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkMessageHeader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkMessageHeader.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkMessageManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/NetworkMessageManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/RpcAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/RpcAttributes.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/RpcParams.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/RpcParams.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/RpcTargets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/RpcTargets/BaseRpcTarget.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/RpcTargets/BaseRpcTarget.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/RpcTargets/ClientsAndHostRpcTarget.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/RpcTargets/ClientsAndHostRpcTarget.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/RpcTargets/DirectSendRpcTarget.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/RpcTargets/DirectSendRpcTarget.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/RpcTargets/EveryoneRpcTarget.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/RpcTargets/EveryoneRpcTarget.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/RpcTargets/IGroupRpcTarget.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/RpcTargets/IGroupRpcTarget.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/RpcTargets/IIndividualRpcTarget.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/RpcTargets/IIndividualRpcTarget.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/RpcTargets/LocalSendRpcTarget.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/RpcTargets/LocalSendRpcTarget.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/RpcTargets/NotMeRpcTarget.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/RpcTargets/NotMeRpcTarget.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/RpcTargets/NotOwnerRpcTarget.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/RpcTargets/NotOwnerRpcTarget.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/RpcTargets/NotServerRpcTarget.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/RpcTargets/NotServerRpcTarget.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/RpcTargets/OwnerRpcTarget.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/RpcTargets/OwnerRpcTarget.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/RpcTargets/ProxyRpcTarget.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/RpcTargets/ProxyRpcTarget.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/RpcTargets/ProxyRpcTargetGroup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/RpcTargets/ProxyRpcTargetGroup.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/RpcTargets/RpcTarget.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/RpcTargets/RpcTarget.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/RpcTargets/RpcTargetGroup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/RpcTargets/RpcTargetGroup.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/RpcTargets/ServerRpcTarget.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Messaging/RpcTargets/ServerRpcTarget.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Metrics.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Metrics/INetworkMetrics.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Metrics/INetworkMetrics.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Metrics/MetricHooks.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Metrics/MetricHooks.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Metrics/NetworkMetrics.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Metrics/NetworkMetrics.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Metrics/NetworkMetricsManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Metrics/NetworkMetricsManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Metrics/NetworkObjectProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Metrics/NetworkObjectProvider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Metrics/NullNetworkMetrics.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Metrics/NullNetworkMetrics.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/NetworkVariable.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/NetworkVariable/AnticipatedNetworkVariable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/NetworkVariable/AnticipatedNetworkVariable.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/NetworkVariable/CollectionSerializationUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/NetworkVariable/CollectionSerializationUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/NetworkVariable/Collections.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/NetworkVariable/Collections/NetworkList.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/NetworkVariable/Collections/NetworkList.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/NetworkVariable/NetworkVariable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/NetworkVariable/NetworkVariable.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/NetworkVariable/NetworkVariableBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/NetworkVariable/NetworkVariableBase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/NetworkVariable/NetworkVariablePermission.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/NetworkVariable/NetworkVariablePermission.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/NetworkVariable/NetworkVariableSerialization.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/NetworkVariable/NetworkVariableSerialization.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/NetworkVariable/ResizableBitVector.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/NetworkVariable/ResizableBitVector.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Profiling.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Profiling/ProfilingHooks.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Profiling/ProfilingHooks.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/SceneManagement.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/SceneManagement/DefaultSceneManagerHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/SceneManagement/DefaultSceneManagerHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/SceneManagement/ISceneManagerHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/SceneManagement/ISceneManagerHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/SceneManagement/NetworkSceneManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/SceneManagement/NetworkSceneManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/SceneManagement/SceneEventData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/SceneManagement/SceneEventData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/SceneManagement/SceneEventProgress.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/SceneManagement/SceneEventProgress.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/Arithmetic.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/Arithmetic.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/BitCounter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/BitCounter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/BitReader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/BitReader.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/BitWriter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/BitWriter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/BufferSerializer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/BufferSerializer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/BufferSerializerReader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/BufferSerializerReader.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/BufferSerializerWriter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/BufferSerializerWriter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/BytePacker.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/BytePacker.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/ByteUnpacker.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/ByteUnpacker.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/ByteUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/ByteUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/FastBufferReader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/FastBufferReader.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/FastBufferWriter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/FastBufferWriter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/ForceNetworkSerializeByMemcpy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/ForceNetworkSerializeByMemcpy.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/INetworkSerializable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/INetworkSerializable.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/INetworkSerializeByMemcpy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/INetworkSerializeByMemcpy.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/IReaderWriter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/IReaderWriter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/MemoryStructures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/MemoryStructures/ByteBool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/MemoryStructures/ByteBool.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/MemoryStructures/UIntFloat.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/MemoryStructures/UIntFloat.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/NetworkBehaviourReference.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/NetworkBehaviourReference.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/NetworkObjectReference.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Serialization/NetworkObjectReference.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Spawning.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Spawning/NetworkPrefabHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Spawning/NetworkPrefabHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Spawning/NetworkSpawnManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Spawning/NetworkSpawnManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Spawning/ReleasedNetworkId.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Spawning/ReleasedNetworkId.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Timing.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Timing/AnticipationSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Timing/AnticipationSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Timing/IRealTimeProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Timing/IRealTimeProvider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Timing/NetworkTickSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Timing/NetworkTickSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Timing/NetworkTime.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Timing/NetworkTime.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Timing/NetworkTimeSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Timing/NetworkTimeSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Timing/RealTimeProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Timing/RealTimeProvider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Transports.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Transports/NetworkDelivery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Transports/NetworkDelivery.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Transports/NetworkEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Transports/NetworkEvent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Transports/NetworkTransport.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Transports/NetworkTransport.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Transports/UNET.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Transports/UNET/UNetTransport.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Transports/UNET/UNetTransport.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Transports/UTP.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Transports/UTP/BatchedReceiveQueue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Transports/UTP/BatchedReceiveQueue.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Transports/UTP/BatchedSendQueue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Transports/UTP/BatchedSendQueue.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Transports/UTP/NetworkMetricsContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Transports/UTP/NetworkMetricsContext.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Transports/UTP/NetworkMetricsPipelineStage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Transports/UTP/NetworkMetricsPipelineStage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Transports/UTP/SecretsLoaderHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Transports/UTP/SecretsLoaderHelper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Transports/UTP/UnityTransport.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/Transports/UTP/UnityTransport.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/com.unity.netcode.runtime.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Runtime/com.unity.netcode.runtime.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Samples~/Bootstrap.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Samples~/Bootstrap/.sample.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Samples~/Bootstrap/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Samples~/Bootstrap/Prefabs/BootstrapPlayer.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Samples~/Bootstrap/Prefabs/BootstrapPlayer.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Samples~/Bootstrap/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Samples~/Bootstrap/Scenes/Bootstrap.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Samples~/Bootstrap/Scenes/Bootstrap.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Samples~/Bootstrap/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Samples~/Bootstrap/Scripts/Bootstrap.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Samples~/Bootstrap/Scripts/Bootstrap.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Samples~/Bootstrap/Scripts/BootstrapManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Samples~/Bootstrap/Scripts/BootstrapManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Samples~/Bootstrap/Scripts/BootstrapPlayer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Samples~/Bootstrap/Scripts/BootstrapPlayer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/AssemblyInfo.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/Components.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/Components/ObjectNameIdentifier.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/Components/ObjectNameIdentifier.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/ConditionalPredicate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/ConditionalPredicate.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/DebugNetworkHooks.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/DebugNetworkHooks.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/IntegrationTestSceneHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/IntegrationTestSceneHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/IntegrationTestWithApproximation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/IntegrationTestWithApproximation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/MessageHooks.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/MessageHooks.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/MessageHooksConditional.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/MessageHooksConditional.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/Metrics.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/Metrics/MetricTestBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/Metrics/MetricTestBase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/Metrics/NetworkVariableComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/Metrics/NetworkVariableComponent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/Metrics/RpcTestComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/Metrics/RpcTestComponent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/Metrics/WaitForCounterMetricValue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/Metrics/WaitForCounterMetricValue.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/Metrics/WaitForEventMetricValues.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/Metrics/WaitForEventMetricValues.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/Metrics/WaitForGaugeMetricValues.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/Metrics/WaitForGaugeMetricValues.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/Metrics/WaitForMetricValues.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/Metrics/WaitForMetricValues.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/MockTimeProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/MockTimeProvider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/MockTransport.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/MockTransport.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/NetcodeIntegrationTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/NetcodeIntegrationTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/NetcodeIntegrationTestHelpers.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/NetcodeIntegrationTestHelpers.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/NetcodeLogAssert.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/NetcodeLogAssert.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/NetworkManagerHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/NetworkManagerHelper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/NetworkVariableHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/NetworkVariableHelper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/TimeoutHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/TimeoutHelper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/com.unity.netcode.testhelpers.runtime.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/TestHelpers/Runtime/com.unity.netcode.testhelpers.runtime.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/ArithmeticTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/ArithmeticTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Build.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Build/BuildTestScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Build/BuildTestScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Build/BuildTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Build/BuildTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/DisconnectMessageTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/DisconnectMessageTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/InterpolatorTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/InterpolatorTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Messaging.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Messaging/DisconnectOnSendTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Messaging/DisconnectOnSendTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Messaging/MessageCorruptionTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Messaging/MessageCorruptionTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Messaging/MessageReceivingTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Messaging/MessageReceivingTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Messaging/MessageRegistrationTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Messaging/MessageRegistrationTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Messaging/MessageSendingTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Messaging/MessageSendingTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Messaging/MessageVersioningTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Messaging/MessageVersioningTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Messaging/NopMessageSender.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Messaging/NopMessageSender.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Metrics.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Metrics/NetworkMetricsRegistrationTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Metrics/NetworkMetricsRegistrationTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/NetworkBehaviourTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/NetworkBehaviourTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/NetworkManagerConfigurationTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/NetworkManagerConfigurationTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/NetworkObjectTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/NetworkObjectTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/NetworkPrefabProcessorTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/NetworkPrefabProcessorTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/NetworkVar.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/NetworkVar/NetworkVarTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/NetworkVar/NetworkVarTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Serialization.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Serialization/BaseFastBufferReaderWriterTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Serialization/BaseFastBufferReaderWriterTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Serialization/BitCounterTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Serialization/BitCounterTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Serialization/BitReaderTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Serialization/BitReaderTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Serialization/BitWriterTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Serialization/BitWriterTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Serialization/BufferSerializerTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Serialization/BufferSerializerTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Serialization/BytePackerTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Serialization/BytePackerTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Serialization/FastBufferReaderTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Serialization/FastBufferReaderTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Serialization/FastBufferWriterTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Serialization/FastBufferWriterTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Serialization/UserBitReaderAndBitWriterTests_NCCBUG175.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Serialization/UserBitReaderAndBitWriterTests_NCCBUG175.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Timing.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Timing/ClientNetworkTimeSystemTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Timing/ClientNetworkTimeSystemTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Timing/NetworkTimeTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Timing/NetworkTimeTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Timing/ServerNetworkTimeSystemTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Timing/ServerNetworkTimeSystemTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Timing/TimingTestHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Timing/TimingTestHelper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Transports.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Transports/BatchedReceiveQueueTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Transports/BatchedReceiveQueueTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Transports/BatchedSendQueueTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Transports/BatchedSendQueueTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Transports/UNetTransportTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Transports/UNetTransportTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Transports/UnityTransportTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/Transports/UnityTransportTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/XXHashTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/XXHashTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/com.unity.netcode.editortests.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Editor/com.unity.netcode.editortests.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/AddNetworkPrefabTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/AddNetworkPrefabTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/AssemblyInfo.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/ClientApprovalDenied.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/ClientApprovalDenied.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/ClientOnlyConnectionTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/ClientOnlyConnectionTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Components.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Components/BufferDataValidationComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Components/BufferDataValidationComponent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Components/NetworkVariableTestComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Components/NetworkVariableTestComponent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Components/NetworkVisibilityComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Components/NetworkVisibilityComponent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/ConnectionApproval.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/ConnectionApproval.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/ConnectionApprovalTimeoutTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/ConnectionApprovalTimeoutTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/DeferredMessagingTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/DeferredMessagingTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/DisconnectTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/DisconnectTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/HiddenVariableTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/HiddenVariableTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/IntegrationTestExamples.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/IntegrationTestExamples.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/InvalidConnectionEventsTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/InvalidConnectionEventsTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/ListChangedTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/ListChangedTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Messaging.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Messaging/DisconnectReasonTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Messaging/DisconnectReasonTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Messaging/NamedMessageTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Messaging/NamedMessageTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Messaging/UnnamedMessageTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Messaging/UnnamedMessageTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Metrics.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Metrics/ConnectionMetricsTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Metrics/ConnectionMetricsTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Metrics/MessagingMetricsTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Metrics/MessagingMetricsTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Metrics/MetricsDispatchTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Metrics/MetricsDispatchTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Metrics/NetworkObjectMetricsTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Metrics/NetworkObjectMetricsTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Metrics/NetworkVariableMetricsTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Metrics/NetworkVariableMetricsTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Metrics/OwnershipChangeMetricsTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Metrics/OwnershipChangeMetricsTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Metrics/PacketLossMetricsTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Metrics/PacketLossMetricsTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Metrics/PacketMetricsTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Metrics/PacketMetricsTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Metrics/RpcMetricsTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Metrics/RpcMetricsTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Metrics/RttMetricsTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Metrics/RttMetricsTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Metrics/ServerLogsMetricTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Metrics/ServerLogsMetricTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Metrics/TransportBytesMetricsTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Metrics/TransportBytesMetricsTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NestedNetworkManagerTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NestedNetworkManagerTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkBehaviourGenericTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkBehaviourGenericTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkBehaviourUpdaterTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkBehaviourUpdaterTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkManagerCustomMessageManagerTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkManagerCustomMessageManagerTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkManagerEventsTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkManagerEventsTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkManagerSceneManagerTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkManagerSceneManagerTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkManagerTransportTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkManagerTransportTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkObject.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkObject/NetworkObjectDestroyTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkObject/NetworkObjectDestroyTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkObject/NetworkObjectDontDestroyWithOwnerTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkObject/NetworkObjectDontDestroyWithOwnerTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkObject/NetworkObjectNetworkClientOwnedObjectsTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkObject/NetworkObjectNetworkClientOwnedObjectsTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkObject/NetworkObjectOnNetworkDespawnTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkObject/NetworkObjectOnNetworkDespawnTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkObject/NetworkObjectOnSpawnTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkObject/NetworkObjectOnSpawnTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkObject/NetworkObjectOwnershipTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkObject/NetworkObjectOwnershipTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkObject/NetworkObjectPropertyTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkObject/NetworkObjectPropertyTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkObject/NetworkObjectSpawnManyObjectsTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkObject/NetworkObjectSpawnManyObjectsTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkObject/NetworkObjectSynchronizationTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkObject/NetworkObjectSynchronizationTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkPrefabHandlerTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkPrefabHandlerTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkShowHideTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkShowHideTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkSpawnManagerTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkSpawnManagerTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkTransform.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkTransform/NetworkTransformBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkTransform/NetworkTransformBase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkTransform/NetworkTransformGeneral.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkTransform/NetworkTransformGeneral.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkTransform/NetworkTransformOwnershipTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkTransform/NetworkTransformOwnershipTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkTransform/NetworkTransformPacketLossTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkTransform/NetworkTransformPacketLossTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkTransform/NetworkTransformStateTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkTransform/NetworkTransformStateTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkTransform/NetworkTransformTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkTransform/NetworkTransformTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkTransformAnticipationTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkTransformAnticipationTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkUpdateLoopTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkUpdateLoopTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkVarBufferCopyTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkVarBufferCopyTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkVariableAnticipationTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkVariableAnticipationTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkVariableTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkVariableTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkVariableTestsHelperTypes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkVariableTestsHelperTypes.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkVariableTraitsTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkVariableTraitsTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkVariableUserSerializableTypesTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkVariableUserSerializableTypesTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkVisibilityTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/NetworkVisibilityTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/OwnerModifiedTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/OwnerModifiedTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/OwnerPermissionTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/OwnerPermissionTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/PeerDisconnectCallbackTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/PeerDisconnectCallbackTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Physics.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Physics/NetworkRigidbody2DTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Physics/NetworkRigidbody2DTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Physics/NetworkRigidbodyTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Physics/NetworkRigidbodyTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/PlayerObjectTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/PlayerObjectTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Profiling.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Profiling/NetworkVariableNameTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Profiling/NetworkVariableNameTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/RpcManyClientsTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/RpcManyClientsTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/RpcQueueTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/RpcQueueTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/RpcTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/RpcTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/RpcTypeSerializationTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/RpcTypeSerializationTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Serialization.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Serialization/NetworkBehaviourReferenceTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Serialization/NetworkBehaviourReferenceTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Serialization/NetworkObjectReferenceTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Serialization/NetworkObjectReferenceTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/StartStopTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/StartStopTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/StopStartRuntimeTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/StopStartRuntimeTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/TestHelpers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/TestHelpers/MessageCatcher.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/TestHelpers/MessageCatcher.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/TestHelpers/MessageLogger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/TestHelpers/MessageLogger.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Timing.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Timing/NetworkTimeSystemTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Timing/NetworkTimeSystemTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Timing/TimeInitializationTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Timing/TimeInitializationTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Timing/TimeIntegrationTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Timing/TimeIntegrationTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/TransformInterpolationTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/TransformInterpolationTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Transports.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Transports/DummyTransport.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Transports/DummyTransport.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Transports/UnityTransportConnectionTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Transports/UnityTransportConnectionTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Transports/UnityTransportDriverClient.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Transports/UnityTransportDriverClient.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Transports/UnityTransportTestHelpers.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Transports/UnityTransportTestHelpers.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Transports/UnityTransportTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/Transports/UnityTransportTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/UniversalRpcTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/UniversalRpcTests.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/com.unity.netcode.runtimetests.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Tests/Runtime/com.unity.netcode.runtimetests.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/ValidationExceptions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/ValidationExceptions.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/package.json.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Multiwindows/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Multiwindows/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Serialization.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Serialization.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Utilities.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/NoEditor/Sirenix.Utilities.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Serialization.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Serialization.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Utilities.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor/Sirenix.Utilities.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main/Init_New.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main/Init_New.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main/MainGameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main/MainGameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Hook.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Hook.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Level/LevelManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/LevelManager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Level/Level_1 SingleWindow/Level1_Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/Level_1 SingleWindow/Level1_Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Level/Level_2_MoreOneWindow/Level2_MoreOneWindow_1-0.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/Level_2_MoreOneWindow/Level2_MoreOneWindow_1-0.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Level/Level_5_Resize/Level_5_Resize_2-0.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/Level_5_Resize/Level_5_Resize_2-0.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Level/Level_6_NewWorld/Level_6_NewWorld.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/Level_6_NewWorld/Level_6_NewWorld.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Level/Level_7_Final.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Level/Level_7_Final/Level_7_FInal.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Level/Level_7_Final/Level_7_FInal.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Level/Level_7_Final/Level_7_NewWorld.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Level/Level_7_Final/Level_7_NewWorld.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Level/Level_7_Final/Level_7_Player.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Level/Level_7_Final/Level_7_Player.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/Level/NetworkPrefabsList.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/Level/NetworkPrefabsList.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/NetDataManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/NetDataManager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefabs/New/System.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefabs/New/System.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Net/CameraGroup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Net/CameraGroup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Net/ControllerWithWindowPosition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Net/ControllerWithWindowPosition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Net/NetdataManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Net/NetdataManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/SceneElements/ChangeLevelState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/SceneElements/ChangeLevelState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/SceneElements/CreateForClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/SceneElements/CreateForClient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/SceneElements/CreateForGameID.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/SceneElements/CreateForGameID.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/SceneElements/FollowCamera.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/SceneElements/FollowCamera.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/SceneElements/Player/ChangeOwnerShipInPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/SceneElements/Player/ChangeOwnerShipInPlayer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/SceneElements/Player/PlayerSetStartPos.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/SceneElements/Player/PlayerSetStartPos.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/SpecialEffect/CameraLockInCenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/SpecialEffect/CameraLockInCenter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/SpecialEffect/ForceOwnerShipToID0.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/SpecialEffect/ForceOwnerShipToID0.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/SpecialEffect/OpenNewApplication.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/SpecialEffect/OpenNewApplication.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/SpecialEffect/QuitGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/SpecialEffect/QuitGame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/SpecialEffect/Test/ShowConsole.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/SpecialEffect/Test/ShowConsole.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/System/HostDataManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/System/HostDataManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/System/NetIdManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/System/NetIdManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/System/OneSceneLevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/System/OneSceneLevelManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/System/SpecialEffectManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/System/SpecialEffectManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/UI/NetButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/UI/NetButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Windows/ChangeCameraCollider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Windows/ChangeCameraCollider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Windows/DisplayEffect/InvisableStartScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Windows/DisplayEffect/InvisableStartScene.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Windows/WindowResize.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Windows/WindowResize.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Windows/WindowsAttributeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Windows/WindowsAttributeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/17d39c2c39ee4e7b892aae294ac7e4f21dba00/90/b50befc9/Vector2Int.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/57122b35ba4a46e4b13b3c579403b46119c00/8c/bf7f0ca1/ButtonAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/0a/7b99e5d0/Void.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7ff4597333a544bc9923788716880fcc572e20/35/7929edf3/Action.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/LevelData/LevelDataSO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/LevelData/LevelGroupDataSO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Net/NetBoxCollider2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Net/NetCameraCollider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Net/NetCodeSpawnComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Net/NetdataManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/SceneElements/ChangeLevelState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/SceneElements/CreateForGameID.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/SceneElements/EffectForInvoke/ChangePlayerOwnerShip.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/SceneElements/SceneEffect/PlayerColliderTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/SpecialEffect/CameraLockInCenter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/SpecialEffect/ForceOwnerShipToID0.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/SpecialEffect/ChangeCurtainState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/SpecialEffect/FullScreenCapture.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/SpecialEffect/MakeGameStartInInit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/SpecialEffect/OpenNewApplication.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/SpecialEffect/ResizeSwitch.cs" root0="FORCE_HIGHLIGHTING" />
@@ -27,6 +887,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/System/NetIdManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/System/OneSceneLevelManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/System/SpecialEffectManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Test/HostDataManagerChangeTool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/UI/AdjustTool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Windows/DisplayEffect/InvisableStartScene.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Windows/TransparentBackground.cs" root0="FORCE_HIGHLIGHTING" />
@@ -35,27 +896,33 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.kirurobo.uniwinc/Runtime/Scripts/LowLevel/UniWinCore.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.kirurobo.uniwinc/Runtime/Scripts/UniWindowController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.multiplayer.tools/NetVis/Editor/UI/Views/OwnershipServerClientConfigurationView.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Core/NetworkBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects/Runtime/Core/NetworkObject.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Multiwindows_clone_0/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Multiwindows_clone_0/Assets/_Scripts/Net/NetdataManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Multiwindows_clone_0/Assets/_Scripts/System/HostDataManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Multiwindows_clone_0/Assets/_Scripts/System/InputManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Multiwindows_clone_0/Library/PackageCache/com.kirurobo.uniwinc/Runtime/Scripts/UniWindowController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/NetworkBehaviourEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Packages/local_packages/com.unity.netcode.gameobjects/Editor/NetworkObjectEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../MultiWindows_clone_0/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../MultiWindows_clone_0/Assets/_Scripts/Net/NetdataManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../MultiWindows_clone_0/Assets/_Scripts/System/HostDataManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../MultiWindows_clone_0/Assets/_Scripts/System/InputManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../MultiWindows_clone_0/Library/PackageCache/com.kirurobo.uniwinc/Runtime/Scripts/UniWindowController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2ihMF2Egcz078UsUd8Lb8YHi1Go" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -82,7 +949,7 @@
       <method v="2" />
     </configuration>
     <configuration name="独立播放器" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/../../ProjectStore/MultiWIndows\Multiwindows.exe" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../../ProjectStore/MutiWinodws\Multiwindows.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="E:\HDUGameMaker\ProjectStore\MultiWIndows" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -139,6 +1006,12 @@
       <workItem from="1720344110166" duration="1929000" />
       <workItem from="1720358393775" duration="3795000" />
       <workItem from="1721096349150" duration="82114000" />
+      <workItem from="1721767165207" duration="7637000" />
+      <workItem from="1721815344867" duration="21000" />
+      <workItem from="1721855171736" duration="19739000" />
+      <workItem from="1721949141316" duration="20083000" />
+      <workItem from="1722036292186" duration="11095000" />
+      <workItem from="1722329865716" duration="3815000" />
     </task>
     <servers />
   </component>
@@ -148,6 +1021,7 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>

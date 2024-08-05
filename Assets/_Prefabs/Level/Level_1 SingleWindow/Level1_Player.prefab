@@ -63,9 +63,13 @@ MonoBehaviour:
   option: 2
   newSprite: {fileID: 0}
   newColor: {r: 1, g: 1, b: 1, a: 0}
-  targetObject: {fileID: 0}
+  targetObject: {fileID: 1339576253703063570}
+  isActive: 0
   targetComponent: {fileID: 0}
   isOnlyFor: 1
+  _unityEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &4329335491603730084
 GameObject:
   m_ObjectHideFlags: 0
@@ -448,6 +452,7 @@ MonoBehaviour:
   networkObject: {fileID: 78631615307842381}
   isHide: 1
   isHalfHide: 1
+  isLock: 0
 --- !u!114 &9171661469131918373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -476,3 +481,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _networkObject: {fileID: 78631615307842381}
+  _changeOwnerShipInPlayer: {fileID: 1985224719065508201}

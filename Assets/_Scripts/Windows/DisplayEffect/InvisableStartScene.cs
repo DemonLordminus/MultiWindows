@@ -2,9 +2,10 @@ using System;
 using System.Runtime.InteropServices;
 using Cysharp.Threading.Tasks;
 using Sirenix.OdinInspector;
+using Unity.Netcode;
 using UnityEngine;
 
-public class InvisableStartScene : MonoBehaviour
+public class InvisableStartScene : Singleton<InvisableStartScene>
 {
     public int windowsOriginWidth = 800;
     public int windowsOriginHeight = 630;
@@ -119,139 +120,43 @@ public class InvisableStartScene : MonoBehaviour
     // }
 
     [SerializeField] private Camera nowCamera;
-    private async void Awake()
-    {
 
+    protected override async void Awake()
+    {
+        base.Awake();
+        hWnd = GetActiveWindow();
         DontDestroyOnLoad(gameObject);
-        Screen.fullScreen = false;
-        winController.SetWindowsPositionToCenter();
-        
-        Screen.fullScreenMode = FullScreenMode.FullScreenWindow;                
-        Screen.fullScreen = true;
+  
         
         nowCamera.clearFlags = CameraClearFlags.SolidColor;
         nowCamera.backgroundColor = new Color(0, 0, 0, 0);
         //await UniTask.Yield();
-        //await UniTask.Delay(10);
+        await UniTask.Delay(10);
         
      
         
         if (!Application.isEditor)
         {
-            
-            
-            hWnd = GetActiveWindow();
-            SetWindowLong(hWnd, GWL_EXSTYLE, WS_EX_LAYERED | WS_EX_TRANSPARENT);
-            // SetLayeredWindowAttributes(hWnd, 0x00000000, 0, LWA_COLORKEY);
-            SetLayeredWindowAttributes(hWnd, 0, 0, LWA_ALPHA);
-            
-            winController.SetWindowTaskbar(true);
-            
-            // winController.SetWinodwsOrder(false,true);
-            
-            // await UniTask.Delay(1000);
-            NetButton.OnClientDone += async () =>
-            {
-                Screen.SetResolution(800, 600, false);
-                
-                Screen.fullScreen = false;
-                SetWindowLong(hWnd, GWL_EXSTYLE, ~WS_EX_LAYERED & ~WS_EX_TRANSPARENT);
-                SetLayeredWindowAttributes(hWnd, 0, 255, LWA_ALPHA);
-                // SetLayeredWindowAttributes(hWnd, 0x00000000, 0, LWA_COLORKEY);
-                //await UniTask.Yield();
-                winController.SetWindowTaskbar(true);
+            NetButton.OnClientDone += ShowOnClient;
 
-                winController.ChangeWindowsSize(windowsOriginWidth, windowsOriginHeight);
-
-                // winController.SetWinodwsOrder(true,true);
-                
-                winController.SetWindowsPositionToCenter();
-                
-                // winController.SetWinodwsOrder(false,false);
-                await UniTask.Delay(200);
-                winController.SetWinodwsOrder(true,false);
-                
-            };
-            
+            // NetButton.OnHostDone += VisibleOnHost;
             NetButton.OnHostDone += async () =>
             {
-                if (Application.isEditor)
-                {
-                    print("无形窗口");
-                    return;
-                }
-
-                //绿幕测试
-                nowCamera.clearFlags = CameraClearFlags.SolidColor;
-                nowCamera.backgroundColor = new Color(0.5f, 0.5f, 0.5f, 0);
-                
-                Screen.fullScreenMode = FullScreenMode.FullScreenWindow;                
-                Screen.fullScreen = true;
-
-                winController.SetWindowTaskbar(false);
-                // int intExTemp = GetWindowLong(hWnd, GWL_EXSTYLE);
-                // SetWindowLong(hWnd, GWL_EXSTYLE, intExTemp | WS_EX_TRANSPARENT | WS_EX_LAYERED);
-                // SetWindowLong(hWnd, GWL_STYLE, GetWindowLong(hWnd, GWL_STYLE) & ~WS_BORDER & ~WS_CAPTION);
-                // winController.SetWinodwsOrder(true,true);
-                //
+                await UniTask.Delay(300);
+                SetWindowLong(hWnd, GWL_EXSTYLE, WS_EX_LAYERED | WS_EX_TRANSPARENT);
                 // SetLayeredWindowAttributes(hWnd, 0x00000000, 0, LWA_COLORKEY);
-                //
-                // SetWindowPos(hWnd, new IntPtr(-1), 0, 0, Screen.currentResolution.width,
-                //     Screen.currentResolution.height, SWP_SHOWWINDOW);
-                // var margins = new MARGINS() { cxLeftWidth = -1 };
-                // DwmExtendFrameIntoClientArea(hWnd, ref margins);
-                
-                await UniTask.Delay(100);
-                
-                // //获取设置当前屏幕分辩率 
-                Resolution resolutions = Screen.currentResolution;
-                
-                int x = GetSystemMetrics(SM_CXSCREEN);
-                int y = GetSystemMetrics(SM_CYSCREEN);
-                
-                // //设置当前分辨率 
-                //Screen.SetResolution(2560, 1600, true);
-                Screen.SetResolution(x, y, true);
-                
-  
-                //Screen.fullScreen = true;  //设置成全屏
-                await UniTask.Delay(100);
-                
-                var margins = new MARGINS() { cxLeftWidth = -1 };
-                DwmExtendFrameIntoClientArea(hWnd, ref margins);
-
-                if (isThrough)
-                {
-                    SetWindowLong(hWnd, GWL_EXSTYLE, WS_EX_TRANSPARENT | WS_EX_LAYERED);
-                }
-                else
-                {
-                    SetWindowLong(hWnd, GWL_EXSTYLE,  WS_EX_LAYERED);
-                }
-                // SetWindowLong(hWnd, GWL_STYLE, GetWindowLong(hWnd, GWL_STYLE) & ~WS_BORDER & ~WS_CAPTION);
-                winController.SetWindowTaskbar(false);
-
-                // SetWindowPos(hWnd, HWND_TOPMOST, 0, 0, 0, 0, SWP_SHOWWINDOW | SWP_NOMOVE | SWP_NOSIZE);
-                
-                SetLayeredWindowAttributes(hWnd, 0x007F7F7F, 0, LWA_COLORKEY);
-                // SetLayeredWindowAttributes(hWnd, 0x00000000, 0, LWA_COLORKEY);
-                SetWindowPos(hWnd, new IntPtr(-1), 0, 0, resolutions.width,
-                    resolutions.height, SWP_NOMOVE);
-                
-
-                // int style = GetWindowLong(hWnd, GWL_STYLE);
-                // style &= ~(WS_BORDER | WS_CAPTION | WS_SYSMENU | WS_MINIMIZEBOX | WS_MAXIMIZEBOX);
-                // SetWindowLong(hWnd, GWL_STYLE, style);
-                //
-                // SetWindowPos(hWnd, IntPtr.Zero, 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE | SWP_FRAMECHANGED);
-
-                // await UniTask.Delay(4000);
-                // SetForegroundWindow(hWnd);
-                
-
-
-
+                SetLayeredWindowAttributes(hWnd, 0, 0, LWA_ALPHA);
+                await UniTask.Delay(300);
+                winController.SetWindowsHide(true);
             };
+            
+            winController.SetWindowsHide(false);
+            await UniTask.Yield();
+            winController.SetWindowsPositionToCenter();
+            // HideOnStart();
+            // winController.SetWindowsHide(true);
+
+      
         }
         else
         {
@@ -263,8 +168,8 @@ public class InvisableStartScene : MonoBehaviour
         
     }
     
-//     private void Update()
-//     {
+    private void Update()
+    {
 // #if !UNITY_EDITOR
 //         if (Input.GetKeyDown(KeyCode.Space))
 //         {
@@ -282,5 +187,141 @@ public class InvisableStartScene : MonoBehaviour
 //             ResetWindowTaskbar();
 //         }
 // #endif
-//     }
+        // if (Input.GetKeyDown(KeyCode.V))
+        //  {
+        //      winController.SetWindowsHide(false);
+        //  }
+        //  if (Input.GetKeyDown(KeyCode.B))
+        //  {
+        //      winController.SetWindowsHide(true);
+        //  }
+    }
+    public void HideOnStart()
+    {
+        
+        Screen.fullScreen = false;
+        winController.SetWindowsPositionToCenter();
+        
+        Screen.fullScreenMode = FullScreenMode.FullScreenWindow;                
+        Screen.fullScreen = true;
+        
+        SetWindowLong(hWnd, GWL_EXSTYLE, WS_EX_LAYERED | WS_EX_TRANSPARENT);
+        // SetLayeredWindowAttributes(hWnd, 0x00000000, 0, LWA_COLORKEY);
+        SetLayeredWindowAttributes(hWnd, 0, 0, LWA_ALPHA);
+            
+        //测试
+        winController.SetWindowTaskbar(false);
+            
+        // winController.SetWinodwsOrder(false,true);
+            
+        // await UniTask.Delay(1000);
+    }
+
+    public async void ShowOnClient()
+    {
+        winController.SetWindowTaskbar(true);
+        Screen.SetResolution(800, 600, false);
+                
+        Screen.fullScreen = false;
+        SetWindowLong(hWnd, GWL_EXSTYLE, ~WS_EX_LAYERED & ~WS_EX_TRANSPARENT);
+        SetLayeredWindowAttributes(hWnd, 0, 255, LWA_ALPHA);
+        // SetLayeredWindowAttributes(hWnd, 0x00000000, 0, LWA_COLORKEY);
+        await UniTask.Yield();
+
+
+        winController.ChangeWindowsSize(windowsOriginWidth, windowsOriginHeight);
+
+        // winController.SetWinodwsOrder(true,true);
+                
+        winController.SetWindowsPositionToCenter();
+                
+        // winController.SetWinodwsOrder(false,false);
+        await UniTask.Delay(200);
+        winController.SetWinodwsOrder(true,false);
+        
+    }
+
+    public async void VisibleOnHost()
+    {
+        if (Application.isEditor)
+        {
+            print("无形窗口");
+            return;
+        }
+
+        if (!NetworkManager.Singleton.IsHost)
+        {
+            Debug.Log("非host调用");
+            return;
+        }
+        
+        //绿幕测试
+        // nowCamera.clearFlags = CameraClearFlags.SolidColor;
+        // nowCamera.backgroundColor = new Color(0.5f, 0.5f, 0.5f, 0);
+        winController.SetWindowsHide(false);
+        await UniTask.Yield();
+        Screen.fullScreenMode = FullScreenMode.FullScreenWindow;
+        Screen.fullScreen = true;
+    
+        // winController.SetWindowTaskbar(false);
+        // int intExTemp = GetWindowLong(hWnd, GWL_EXSTYLE);
+        // SetWindowLong(hWnd, GWL_EXSTYLE, intExTemp | WS_EX_TRANSPARENT | WS_EX_LAYERED);
+        // SetWindowLong(hWnd, GWL_STYLE, GetWindowLong(hWnd, GWL_STYLE) & ~WS_BORDER & ~WS_CAPTION);
+        // winController.SetWinodwsOrder(true,true);
+        //
+        // SetLayeredWindowAttributes(hWnd, 0x00000000, 0, LWA_COLORKEY);
+        //
+        // SetWindowPos(hWnd, new IntPtr(-1), 0, 0, Screen.currentResolution.width,
+        //     Screen.currentResolution.height, SWP_SHOWWINDOW);
+        // var margins = new MARGINS() { cxLeftWidth = -1 };
+        // DwmExtendFrameIntoClientArea(hWnd, ref margins);
+        // TODO:HDR关了，可能可用了
+        await UniTask.Delay(100);
+
+        // //获取设置当前屏幕分辩率 
+        Resolution resolutions = Screen.currentResolution;
+
+        int x = GetSystemMetrics(SM_CXSCREEN);
+        int y = GetSystemMetrics(SM_CYSCREEN);
+
+        // //设置当前分辨率 
+        //Screen.SetResolution(2560, 1600, true);
+        Screen.SetResolution(x, y, true);
+
+
+        //Screen.fullScreen = true;  //设置成全屏
+        await UniTask.Delay(100);
+
+        var margins = new MARGINS() { cxLeftWidth = -1 };
+        DwmExtendFrameIntoClientArea(hWnd, ref margins);
+
+        if (isThrough)
+        {
+            SetWindowLong(hWnd, GWL_EXSTYLE, WS_EX_TRANSPARENT | WS_EX_LAYERED);
+        }
+        else
+        {
+            SetWindowLong(hWnd, GWL_EXSTYLE, WS_EX_LAYERED);
+        }
+
+        // SetWindowLong(hWnd, GWL_STYLE, GetWindowLong(hWnd, GWL_STYLE) & ~WS_BORDER & ~WS_CAPTION);
+        winController.SetWindowTaskbar(false);
+
+        // SetWindowPos(hWnd, HWND_TOPMOST, 0, 0, 0, 0, SWP_SHOWWINDOW | SWP_NOMOVE | SWP_NOSIZE);
+
+        SetLayeredWindowAttributes(hWnd, 0x007F7F7F, 0, LWA_COLORKEY);
+        // SetLayeredWindowAttributes(hWnd, 0x00000000, 0, LWA_COLORKEY);
+        SetWindowPos(hWnd, HWND_TOPMOST, 0, 0, resolutions.width,
+            resolutions.height, SWP_NOMOVE);
+
+
+        // int style = GetWindowLong(hWnd, GWL_STYLE);
+        // style &= ~(WS_BORDER | WS_CAPTION | WS_SYSMENU | WS_MINIMIZEBOX | WS_MAXIMIZEBOX);
+        // SetWindowLong(hWnd, GWL_STYLE, style);
+        //
+        // SetWindowPos(hWnd, IntPtr.Zero, 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE | SWP_FRAMECHANGED);
+
+        // await UniTask.Delay(4000);
+        // SetForegroundWindow(hWnd);
+    }
 }

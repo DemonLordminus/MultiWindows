@@ -19,6 +19,7 @@ public class ChangeOwnerShipInPlayer : NetworkBehaviour
     public override async void OnNetworkSpawn()
     {
         base.OnNetworkSpawn();
+        spriteRenderer = GetComponentsInChildren<SpriteRenderer>();
         if (!IsHost && isHide)
         {
             if (!isHalfHide)
@@ -38,10 +39,13 @@ public class ChangeOwnerShipInPlayer : NetworkBehaviour
             }
         }
 
-        // if (IsHost)
-        // {
-        //     SetSpriteRenderVisible(true);
-        // }
+        if (IsHost)
+        {
+            foreach (var render in spriteRenderer)
+            {
+                render.enabled = false;
+            }
+        }
     }
 
     public void SetSpriteRenderColor(bool isHalfAlpha)
@@ -52,7 +56,7 @@ public class ChangeOwnerShipInPlayer : NetworkBehaviour
             newAlpha = 0.5f;
         }
 
-        spriteRenderer = GetComponentsInChildren<SpriteRenderer>();
+        // spriteRenderer = GetComponentsInChildren<SpriteRenderer>();
         foreach (var render in spriteRenderer)
         {
             var color = render.color;
@@ -70,6 +74,14 @@ public class ChangeOwnerShipInPlayer : NetworkBehaviour
         if (!isLock)
         {
             ChangeOwnerShipServerRPC(targetID);
+        }
+    }
+    
+    public void ChangeOwnership(int gameID,bool isNoOrderCheck = false)
+    {
+        if (!isLock)
+        {
+            ChangeOwnerShipServerRPC(gameID,isNoOrderCheck);
         }
     }
     [ServerRpc(RequireOwnership = false)]
@@ -125,6 +137,25 @@ public class ChangeOwnerShipInPlayer : NetworkBehaviour
         //CheckIsCanChangeOwnerShipClientRpc(targetID,p - 1,clientRpcParams);
 
     }
+
+    [ServerRpc(RequireOwnership = false)]
+    public void ChangeOwnerShipServerRPC(int gameID, bool isNoOrderCheck = false)
+    {
+        ulong targetID = NetIdManager.Instance.idRefrenceClientID[gameID];
+        var targetIndex = NetdataManager.host.clientOrder.FindIndex(x => x == targetID);
+        var nowIndex = NetdataManager.host.clientOrder.FindIndex(x => x == OwnerClientId);
+        if (nowIndex > targetIndex || isNoOrderCheck)
+        {
+            OnOwnerShipChange?.Invoke(targetID);
+            networkObject.ChangeOwnership(targetID);
+            SpriteHideClientRPC();
+        }
+        else
+        {
+
+        }
+    }
+
     // public void LeaveOwnership(ulong targetID)
     // {
     //     if (IsOwner)
@@ -172,6 +203,41 @@ public class ChangeOwnerShipInPlayer : NetworkBehaviour
     [ClientRpc]
     public void SpriteHideClientRPC()
     {
+        if (NetworkManager.Singleton.IsHost)
+        {
+            if (!IsOwner)
+            {
+                // if (HostDataManager.Instance.NowStageCurtainState == StageCurtainState.hideCurtain)
+                // {
+                //     hideGroup.enabled = true;
+                //     return;
+                // }
+                foreach (var render in spriteRenderer)
+                {
+                    render.enabled = false;
+                }
+            }
+            else
+            {
+                //hideGroup.enabled = false;
+                SetSpriteRenderColor(false);
+                foreach (var render in spriteRenderer)
+                {
+                    render.enabled = true;
+                }
+            }
+            return;
+        }
+        else
+        {
+            if (OwnerClientId == 0)
+            {
+                hideGroup.enabled = true;
+                return;
+            }
+        }
+        hideGroup.enabled = false;
+        
         if (isHide)
         {
             if (!IsOwner)
@@ -220,6 +286,8 @@ public class ChangeOwnerShipInPlayer : NetworkBehaviour
         networkObject.ChangeOwnership(targetID);
         SpriteHideClientRPC();
     }
+    
+    
     //[ClientRpc]
     //public void CheckIsCanChangeOwnerShipClientRpc(ulong targetID,int nowCheck,ClientRpcParams clientRpcParams = default)
     //{

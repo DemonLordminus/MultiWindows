@@ -1,4 +1,5 @@
 using Cysharp.Threading.Tasks;
+using Unity.Netcode;
 using UnityEditor;
 using UnityEngine;
 
@@ -7,6 +8,10 @@ public class QuitGame : MonoBehaviour
 {
     public void QuitGameFunction()
     {
+        if (NetworkManager.Singleton.IsHost)
+        {
+            NetworkManager.Singleton.Shutdown();
+        }
         if (Application.isEditor)
         {
 #if UNITY_EDITOR

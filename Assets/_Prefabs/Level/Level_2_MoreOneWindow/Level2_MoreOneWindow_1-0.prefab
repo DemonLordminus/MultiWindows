@@ -746,8 +746,12 @@ MonoBehaviour:
   newSprite: {fileID: 0}
   newColor: {r: 0, g: 0, b: 0, a: 0}
   targetObject: {fileID: 0}
+  isActive: 0
   targetComponent: {fileID: 0}
   isOnlyFor: 1
+  _unityEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &5166193811645110208
 GameObject:
   m_ObjectHideFlags: 0
@@ -1084,8 +1088,12 @@ MonoBehaviour:
   newSprite: {fileID: 0}
   newColor: {r: 0, g: 0, b: 0, a: 0}
   targetObject: {fileID: 0}
+  isActive: 0
   targetComponent: {fileID: 0}
   isOnlyFor: 1
+  _unityEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7327980886468917212
 GameObject:
   m_ObjectHideFlags: 0
@@ -1239,8 +1247,12 @@ MonoBehaviour:
   newSprite: {fileID: 0}
   newColor: {r: 0, g: 0, b: 0, a: 0}
   targetObject: {fileID: 0}
+  isActive: 0
   targetComponent: {fileID: 0}
   isOnlyFor: 0
+  _unityEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &8211742769811994035
 GameObject:
   m_ObjectHideFlags: 0
@@ -1703,5 +1715,9 @@ MonoBehaviour:
   newSprite: {fileID: 0}
   newColor: {r: 0, g: 0, b: 0, a: 0}
   targetObject: {fileID: 0}
+  isActive: 0
   targetComponent: {fileID: 0}
   isOnlyFor: 1
+  _unityEvent:
+    m_PersistentCalls:
+      m_Calls: []

@@ -11,10 +11,12 @@ public class OneSceneLevelManager : Singleton<OneSceneLevelManager>
 {
     // public List<LevelDataSO> allLevelData; //不用
     public List<LevelDataStateFullData> levelDataStateFull;
+    public List<LevelGroupDataSO> levelGroupDataSosFull;
     public GameObject nowActiveLevelGameObject;
     public Vector3 startPosition; //默认为0,0,0
     public NetworkObject nowActivePlayer;
     
+    // 废弃
     [Serializable]
     public class LevelDataStateFullData
     {
@@ -23,6 +25,8 @@ public class OneSceneLevelManager : Singleton<OneSceneLevelManager>
         public LevelDataSO RepeatWhenMore;
         [AssetsOnly] public NetworkObject newPlayer;
     }
+
+  
     public async void LevelSwitch(LevelState state,int levelIndex = 0,bool justCleraActiveGO = false)
     {
         if (justCleraActiveGO)
@@ -45,15 +49,15 @@ public class OneSceneLevelManager : Singleton<OneSceneLevelManager>
         //     }
         // }
 
-        foreach (var stateFull in levelDataStateFull)
+        foreach (var stateFull in levelGroupDataSosFull)
         {
             if (stateFull.nowState == state)
             {
-                if (nowGameID!=0)
-                {
+                //if (nowGameID != 0) //测试用，允许id=0加载repeat
+                //{
                     newLeveLObject = stateFull.RepeatWhenMore.levelData.levelPrefab;
-                }
-                else
+                //}
+                if (nowGameID == 0)
                 {
                     newPlayerObject = stateFull.newPlayer;
                 }
@@ -91,6 +95,8 @@ public class OneSceneLevelManager : Singleton<OneSceneLevelManager>
                nowActivePlayer = Instantiate(newPlayerObject,newPlayerPos,Quaternion.identity);
                nowActivePlayer.Spawn(false);
                nowActivePlayer.ChangeOwnership(newOwnerID);
+
+               HostDataManager.Instance.player = nowActivePlayer;
             }
         }
     }
@@ -116,6 +122,7 @@ public enum LevelState
     respawn = 3,
     resize = 4,
     newWorld = 5,
-    TestFinal = 6,
+    OutSideTheBox = 6,
+    TestFinal = -6,
     empty = -1,
 }
